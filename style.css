@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Fraunces';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product-container {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 520px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+img {
+    height: 400px;
+    width: 200px;
+    border-left: 4%;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-category {
+    color: hsl(0, 2%, 33%);
+    padding: 25px 0 0 35px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
+
+}
+
+.product-name {
+    /* border: 2px solid black; */
+    margin: 10px 0 0 30px;
+    width: 200px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Fraunces';
+}
+
+.product-name p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.product-desc {
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 280px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2px 0 5px 20px;
+    color: hsl(212, 21%, 14%);
+    letter-spacing: 1px;
+}
+
+.product-price {
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.discounted-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    /* font-family: 'Fraunces'; */
+}
+
+.actual-price {
+    text-decoration: line-through;
+    font-size: 18px;
+    padding-left: 10px;
+    color: hsl(0, 1%, 25%);
+    font-weight: 400;
+    /* font-family: 'sans-serif'; */
+    font-family: 'Montserrat';
+    /* font-family: 'Fraunces'; */
+}
+
+.cart-button {
+    display: block;
+    margin: 15px 0 0 -2px;
+    height: 40px;
+    width: 270px;
+    padding: 11px;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
